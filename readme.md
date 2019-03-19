@@ -7,5 +7,5 @@
 	}
 
     dependencies {
-        implementation 'com.github.qbaowei:ActionManager:Tag'
+        implementation 'com.github.qbaowei:ActionManager:v1.0'
     }
