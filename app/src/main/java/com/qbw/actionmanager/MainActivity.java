@@ -73,7 +73,9 @@ public class MainActivity extends AppCompatActivity implements ActionManager.Lis
 
     @Override
     protected void onDestroy() {
-        ActionManager.getInstance().removeInterestedActions(this);
+        ActionManager am = ActionManager.getInstance();
+        am.removeInterestedActions(this);
+
         super.onDestroy();
     }
 }
