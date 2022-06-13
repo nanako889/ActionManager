@@ -1,11 +1,6 @@
 
-    allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+# Download
+        implementation 'top.qinbaowei:actionmanager:1.2'
 
-    dependencies {
-        implementation 'com.github.qbaowei:ActionManager:v1.0'
-    }
+# Author
+    qbaowei@foxmail.com
